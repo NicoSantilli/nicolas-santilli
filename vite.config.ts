@@ -5,7 +5,7 @@ import { VitePluginFonts } from 'vite-plugin-fonts';
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react(),
-    VitePluginFonts({
+  VitePluginFonts({
     google: {
       families: []
     },
@@ -18,5 +18,5 @@ export default defineConfig({
       preload: true
     },
   })
-],
+  ],
 })
